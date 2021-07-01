@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0%;
+}
+
+:root {
+    --primary: #6C63FF;
+    --secondary: #3F3D56;
+    --dark: #2F2E41;
+    --white: #fff;
+}
+
+/* navbar */
+.navbar {
+    padding: .85% 5%;
+}
+
+.bgcolor.scrolled{
+    background-color: var(--white);
+}
+
+.navbar-brand {
+    font-family: "Roboto";
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--secondary);
+}
+
+.navbar-toggler {
+    justify-content: flex-end;
+}
+
+.nav-link {
+    margin: 0 2rem;
+    font-family: "Roboto";
+    color: var(--dark);
+}
+
+.nav-link:hover .navbar:hover {
+    color: var(--primary);
+}
+
+.hamburger-icon {
+    color: var(--second);
+    outline: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: end;
+}
+
+
+/* Home Section */
+.circleSvgContainer {
+    padding: 0 12px 0 0;
+}
+
+.circle-svg {
+    width: 50%;
+    position: absolute;
+    z-index: -1;
+}
+
+.home-title {
+    font-family: "Roboto";
+    font-weight: 500;
+    color: var(--secondary);
+    padding: 40% 15% 0 12%;
+    text-align: left;
+    font-size: 5rem;
+}
+
+.home-text {
+    font-family: "Roboto";
+    font-weight: 100;
+    color: var(--secondary);
+    padding: 0 12%;
+}
+
+.main-img {
+    margin: 25% 0 10% 0;
+    width: 90%;
+    padding: 0;
+}
+
+.getStartedButton {
+    margin: 5% 12%;
+}
+
+
+/* Media Queries for Small devices */
+@media only screen and (max-width : 414px) {
+    .navbar {
+        padding: 1% 3%;
+    }
+
+    .circle-svg {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        z-index: -1;
+    }
+    .main-img {
+        margin: 50% 0 10% 0;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Media Queries for Tablet */
