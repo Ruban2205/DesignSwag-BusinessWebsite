@@ -42,19 +42,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#features">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -64,11 +61,12 @@
 
     <!-- Home Section -->
     <section id="home">
+
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 circleSvgContainer">
                     <img class="circle-svg" src="Images/circleSVG.svg" alt="circle-svg">
-                    <h1 class="home-title">What we do?</h1>
+                    <h1 class="home-title">Design Swag</h1>
                     <h3 class="home-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum lacinia
                         nulla</h3>
                     <button class="btn btn-dark btn-lg getStartedButton" type="button">Get Started</button>
@@ -78,9 +76,113 @@
                 </div>
             </div>
         </div>
-    </section>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container-fluid about-container text-center">
+            <div class="row">
+                <h1 class="about-title">Who we are?</h1>
+                <p class="about-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the leap into electronic typesetting,
+                    remaining essentially unchanged. It was popularised in the 1960s with the release
+                    of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                    desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h1 class="feature-title text-center">Features</h1>
+        <div class="container text-center" style="padding: 0;">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="Images/section1.svg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Card title</h5>
+                            <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Elementum lacinia nulla</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="Images/section1.svg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Card title</h5>
+                            <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Elementum lacinia nulla</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card">
+                        <img src="Images/section1.svg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Card title</h5>
+                            <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Elementum lacinia nulla</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="text-center">
+            <h1 class="register-heading">Contact</h1>
+        </div>
+        <div class="contact contact-container">
+            <div class="contact">
+                <form id="register-form" class="row g-3">
+                    <div class="container col-12">
+                        <label class="form-label">Name</label>
+                        <input id="contact-name" type="text" class="form-control" placeholder="Ruban Gino Singh">
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label" hint="Enter last name..">Email</label>
+                        <input id="mail" type="email" class="form-control" placeholder="info@rubangino.in">
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label" hint="Enter your suggestions...">Suggestions</label>
+                        <textarea name="message" type="text" id="suggestion" class="form-control" rows="5"
+                            placeholder="Send your suggestions here..."></textarea>
+                    </div>
+                    <div class="col-12 text-center gap-2">
+                        <button id="contact-button" class="btn btn-primary" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid bg-dark py-3">
+            <div class="row">
+                <div class="foot-icon d-flex flex-row justify-content-center col-12 py-4">
+                    <li class="mx-3"><a href="#" target="_blank"><i
+                                class="fab fa-facebook-square"></i></a></li>
+                    <li class="mx-3"><a href="#" target="_blank"><i
+                                class="fab fa-instagram-square"></i></a></li>
+                    <li class="mx-3"><a href="#" target="_blank"><i
+                                class="fab fa-twitter-square"></i></a></li>
+                    <li class="mx-3"><a href="#" target="_blank"><i
+                                class="fab fa-github-square"></i></a></li>
+                </div>
+                <div class="copyright col-12 d-flex justify-content-center">
+                    <h6>©2020 <a href="#" target="_blank" style="text-decoration: none; color: white;">DesignSwag</a> | All rights Reserved.</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scrolling navbar color change -->
     <script>
         $(window).scroll(function () {
             $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
@@ -90,38 +192,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-<!-- <nav class="navbar navbar-expand-lg">
-    <div class="container">
-        <a href="#" class="navbar-brand">DesignSwag</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Work</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-</nav> -->
